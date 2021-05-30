@@ -1,0 +1,7 @@
+{
+    "root": "C:\\Users\\kfmep\\Desktop\\practice_reactNative\\myapp\\ios",
+    "node_env": "development",
+    "default_script": "app.js",
+    "apps": {},
+    "web": {}
+}

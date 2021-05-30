@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, TextInput, StyleSheet } from 'react-native';
+import AsyncStorageDB from 'async-storage-db';
 
 // ここから　props
 interface Props {
@@ -38,6 +39,7 @@ const styles = StyleSheet.create({
 
 export default function App() {
     const ref = React.useRef<TextInput>(null);
+    const db = new AsyncStorageDB.PouchDB('test');
 
     return (
         <View style={styles.container}>
@@ -58,3 +60,6 @@ export default function App() {
         </View>
     )
 }
+
+
+

@@ -22,6 +22,7 @@ export default function Sample2() {
     Animated.timing(width, {
       toValue: 350,
       duration: MSEC_IN_FRAME * 350,
+      useNativeDriver: false,
     }).start();
   }, []);
 

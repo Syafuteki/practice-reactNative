@@ -8,6 +8,7 @@ interface Props {
   style?: ViewStyle;
 }
 
+//　ここなぜかSample3を関数コンポーネントにしないと通らない、参考書・Qiitaは普通にできてる
 const AnimatedProgressView = Animated.createAnimatedComponent(ProgressView);
 
 export default function Sample3(props: Props) {

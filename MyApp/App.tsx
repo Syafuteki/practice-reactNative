@@ -8,10 +8,6 @@ import Sample4 from './sampleCode/sample4';
 import Sample5 from './sampleCode/sample5';
 import Sample6 from './sampleCode/sample6';
 
-
-
-
-
 export default function App() {
   return (
     <Sample6 />

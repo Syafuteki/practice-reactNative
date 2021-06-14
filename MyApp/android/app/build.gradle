@@ -220,3 +220,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
+// react-native-vector-iconsのドキュメントで推奨された奴
+// https://www.npmjs.com/package/react-native-vector-icons#bundled-icon-sets
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"

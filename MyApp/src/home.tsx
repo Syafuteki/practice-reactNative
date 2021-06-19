@@ -3,9 +3,12 @@ import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
 
 export default function Home() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.component}>
       <View style={styles.container}>
-          <Text>ABCDEFG</Text>
+        <Text>ABCDEFG</Text>
+      </View>
+      <View style={styles.containerr}>
+        <Text>abcdefg</Text>
       </View>
       <View style={styles.container}>
         <Text>ABCDEFG</Text>
@@ -15,10 +18,22 @@ export default function Home() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  component: {
     flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
+    backgroundColor: 'gray',
+  },
+  container: {
+    //flex: 1,
+    justifyContent: 'space-between',
+    //alignItems: 'flex-start',
     backgroundColor: 'red',
+    padding: 20,
+  },
+  containerr: {
+    //flex: 1,
+    justifyContent: 'space-between',
+    //alignItems: 'flex-start',
+    backgroundColor: 'blue',
+    padding: 20,
   },
 });

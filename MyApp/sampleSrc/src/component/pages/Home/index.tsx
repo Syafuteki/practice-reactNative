@@ -7,8 +7,17 @@ export default function Home() {
       <View style={styles.container}>
         <Text>ABCDEFG</Text>
       </View>
-      <View style={styles.containerr}>
-        <Text>abcdefg</Text>
+      <View style={styles.container}>
+        <Text>ABCDEFG</Text>
+      </View>
+      <View style={styles.container}>
+        <Text>ABCDEFG</Text>
+      </View>
+      <View style={styles.container}>
+        <Text>ABCDEFG</Text>
+      </View>
+      <View style={styles.container}>
+        <Text>ABCDEFG</Text>
       </View>
       <View style={styles.container}>
         <Text>ABCDEFG</Text>
@@ -20,20 +29,12 @@ export default function Home() {
 const styles = StyleSheet.create({
   component: {
     flex: 1,
+    justifyContent: 'space-around',
     backgroundColor: 'gray',
   },
   container: {
-    //flex: 1,
-    justifyContent: 'space-between',
-    //alignItems: 'flex-start',
     backgroundColor: 'red',
-    padding: 20,
-  },
-  containerr: {
-    //flex: 1,
-    justifyContent: 'space-between',
-    //alignItems: 'flex-start',
-    backgroundColor: 'blue',
+    borderWidth: 1,
     padding: 20,
   },
 });

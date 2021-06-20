@@ -8,8 +8,7 @@ import Sample4 from './sampleCode/sample4';
 import Sample5 from './sampleCode/sample5';
 import Sample6 from './sampleCode/sample6';
 
-import Home from './src/Home';
-import BottomTab from './src/BottomTab';
+import { Home, BottomTab } from './sampleSrc/src/component/pages';
 
 export default function App() {
   return (

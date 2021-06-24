@@ -15,5 +15,3 @@ export const Context = React.createContext({
     applicationState: createApplicationInitialState(),
     setApplicationState: (_: Status) => {},
 })
-
-export { Context as UiCOntext } from './ui';
